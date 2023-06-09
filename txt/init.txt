@@ -1,0 +1,100 @@
+###
+##Dev Test Room. Future versions will have a splash screen. (Perhaps an opening movie instead)###
+##
+
+#note: make logic for skipping this enitrely
+
+@chapter "DevIntro"
+
+
+@skip enable
+
+@bg !TEMP_BG_black.png 0
+
+This is a temporary Dev test for each feature of Suika2
+
+If you see this during development and would like to skip this press (whatever button I choose at this point)
+
+sfx have yet to be fully replaced
+
+In the final release this will not be present.
+
+#Dev Message:
+
+@se vineboom.ogg 
+
+Success
+
+
+#Test 2
+
+
+@bgm dococktestsong.ogg
+
+music test
+
+
+#Test 3
+
+@se vineboom.ogg
+
+@ch center QuickTemp.png 2.0 sl
+
+Oh crap it's him
+
+
+#face portrait test
+
+@ch face QuickmanFacePortrait.png 
+
+I am very tall
+
+@ch face none 0.2
+
+what do?
+
+#fix label (hover and click) SFX!!!!!!
+
+@choose label1 ":(" label2 "wow" label3 ":)"
+
+:label1
+:(
+@goto end
+:label2
+wow
+@goto end
+:label3
+:)
+:end
+
+
+
+he vanishes
+
+
+#Test 4 Get Rid of Images
+
+@ch center none 0.01
+
+
+
+@bgm stop
+
+
+phew he's gone
+
+
+welp
+
+
+...
+
+let's just get to the actual vn
+
+
+@wait 1.5
+
+
+##Jump to new txt file
+
+@load chapter1.txt
